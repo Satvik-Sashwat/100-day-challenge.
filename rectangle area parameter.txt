@@ -1,0 +1,21 @@
+
+
+#include <stdio.h>
+
+int main() {
+    
+    float side1, side2, area, parametre;
+printf("enter the value of first side of rectangle");
+scanf("%f", &side1);
+
+printf("enter side two of rectangle");
+scanf("%f", &side2);
+area=side1*side2;
+
+printf("area of rectangle is %.2f\n", area);
+parametre= 2*(side1+side2);
+    printf("parametre of rectangleis %.2f\n", parametre);
+}
+
+
+
