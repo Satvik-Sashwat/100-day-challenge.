@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    
+    float radii,circmferance, area;
+printf("enter the value of radii of circle ");
+scanf("%f", &radii);
+circmferance=2*3.14*radii;
+printf("circmferance of circle is%.2f\n",circmferance);
+
+area=radii*radii*3.14;
+
+printf("area of circle is %.2f\n", area);
+
+}
+
+
