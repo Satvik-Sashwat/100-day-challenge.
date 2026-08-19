@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+int a,b,c;
+printf("enter value of a and b");
+scanf("%d %d",&a,&b);
+c=a;
+a=b;
+b=c;
+
+printf("After swaping\n");
+printf("first no =%d\n",a);
+printf("second no is =%d\n",b);
+}
