@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+int totaltime,hour,minute,second;
+
+printf("enter the total time in seconds");
+scanf("%d",&totaltime);
+hour=totaltime/3600;
+minute=(totaltime % 3600)/60;
+second=totaltime % 60;
+printf("time= %d hour%d minute%d seaconds\n",hour,minute,second);
+}
