@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+float simple_intreast,principle,rate,time,compound_intrest,amount;
+
+printf("enter the principle  ");
+scanf("%f",&principle);
+
+printf("enter the rate  ");
+scanf("%f",&rate);
+printf("enter the time  ");
+scanf("%f",&time);
+
+simple_intreast=(principle*rate*time)/100;
+printf("simple intreast with principle %.2f rate %.2f and time %.2f = %.2f\n",principle,rate,time,simple_intreast);
+
+amount=principle*pow((1+rate/100),time);
+compound_intrest=amount-principle;
+
+printf("compound intrest will be equal to %.2f\n ", compound_intrest);
+}
