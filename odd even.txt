@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+int no,modules;
+printf("enter your number ");
+scanf("%d",&no);
+
+modules=no%2;
+
+if(modules==0)
+{printf("your number is even");}
+else
+{printf("your numberis odd no ");}
+}
