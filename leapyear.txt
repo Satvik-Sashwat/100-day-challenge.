@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+int year,mod1,mod2,mod3;
+printf("enter your year ");
+scanf("%d",&year);
+
+mod1=year%4;
+mod2=year%400;
+mod3=year%100;
+
+if(mod2==0)
+{printf("your year is leap year");}
+else if(mod3==0)
+{printf("your year is not leap year");}
+else if (mod1==0)
+{printf("your year is leap year");}
+}
