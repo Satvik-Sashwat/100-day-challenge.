@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+char character;
+printf("enter your character ");
+scanf("%c",&character);
+
+if(character=='a'||character=='e'||character=='i'||character=='o'||character=='u')
+{printf("your characteris vowel");}
+else 
+{printf("your character is constant");}
+
+}
