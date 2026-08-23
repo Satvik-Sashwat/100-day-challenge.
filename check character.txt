@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<ctype.h>
+int main()
+{
+char character;
+printf("ENTER YOUR CHARACTER");
+scanf("%c",& character);
+
+if (isupper(character))
+{printf ("upper letter");}
+else if (islower(character))
+{printf ("lower letter");}
+else if (isdigit(character))
+{printf ("number");}
+else
+{printf ("special character");}
