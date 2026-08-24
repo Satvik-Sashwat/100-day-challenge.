@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+float percentage;
+printf("enter your percentaget\n");
+scanf("%f", &percentage);
+
+
+if(percentage<60)
+{printf("you are F ");}
+else if (percentage<70)
+{printf ("you are D");}
+else if(percentage<80)
+{printf ("you are C");}
+else if (percentage<90)
+{printf ("you are B");}
+
+else
+{printf ("you are A");}
+
+
+
+
+
+
+
+}
