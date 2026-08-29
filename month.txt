@@ -1,0 +1,47 @@
+#include<stdio.h>
+int main()
+{int num;
+printf("enter your month from 1 to 12\n");
+scanf("%d",&num);
+ switch(num){
+case 1 :
+printf("it is January with 31 days"); break;
+
+case 2:
+printf("it is Febuary with 28 0r 29 days"); break;
+
+case 3:
+printf("it is march with 31 days"); break;
+
+case 4:
+printf("it is april with 30 days"); break;
+
+case 5:
+printf("it is may with 31 days"); break;
+
+case 6 :
+printf("it is june with 30vdays "); break;
+
+case 7 :
+printf("it is july with 31 days"); break;
+
+case 8 :
+printf("it is august with 31 days"); break;
+
+case 9 :
+printf("it is september with 30 days"); break;
+
+case 10 :
+printf("it is octuber with 31 days"); break;
+
+case 11 :
+printf("it is november with 30 days"); break;
+
+case 12 :
+printf("it is december with 31 days"); break;
+
+
+c
+default:  printf("Invalidind input");
+}}
+
