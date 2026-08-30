@@ -41,7 +41,7 @@ case 12 :
 printf("it is december with 31 days"); break;
 
 
-c
+
 default:  printf("Invalidind input");
 }}
 
